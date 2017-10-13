@@ -4,9 +4,9 @@ function Ball(){
   this.clr = color (random (200),random (200),random (200));
   this.x = random(width);
   this.y = random(height);
-  this.speedX = random(5, 8);
-  this.speedY = random(5, 8);
-  this.rad = random(20, 40);
+  this.speedX = random(5, 10);
+  this.speedY = random(5, 10);
+  this.rad = random(20, 50);
   
   // methods
   this.update = function(){
