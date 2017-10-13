@@ -6,7 +6,7 @@ function Ball(){
   this.y = random(height);
   this.speedX = random(5, 10);
   this.speedY = random(5, 10);
-  this.rad = random(20, 50);
+  this.rad = random(20, 60);
   
   // methods
   this.update = function(){
