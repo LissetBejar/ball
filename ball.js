@@ -1,11 +1,11 @@
 
 function Ball(){
   // properties
-  this.clr = color (random (200),random (200),random (200));
+  this.clr = color (random (100),random (100),random (100));
   this.x = random(width);
   this.y = random(height);
-  this.speedX = random(5, 10);
-  this.speedY = random(5, 10);
+  this.speedX = random(7, 10);
+  this.speedY = random(7, 10);
   this.rad = random(20, 60);
   
   // methods
