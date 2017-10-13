@@ -5,7 +5,7 @@ function setup() {
  var x=(windowWidth-width)/2
  var y=30
  cnv.position(x,y);
- for(var i = 0; i<30; i++){
+ for(var i = 0; i<50; i++){
    balls.push (new Ball());
  }
 }
